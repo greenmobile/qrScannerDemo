@@ -34,6 +34,20 @@
 			remoteGlobalIDString = 04B6912C16A979B6000D11A9;
 			remoteInfo = qrScannerDemo;
 		};
+		04B6917816A97EEB000D11A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		04B6917A16A97EEB000D11A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
+			remoteInfo = ZXingTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +74,7 @@
 		04B6916216A979B6000D11A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B6916416A979B6000D11A9 /* qrScannerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qrScannerDemoTests.h; sourceTree = "<group>"; };
 		04B6916516A979B6000D11A9 /* qrScannerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qrScannerDemoTests.m; sourceTree = "<group>"; };
+		04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,7 @@
 		04B6913716A979B6000D11A9 /* qrScannerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04B6916F16A97EDA000D11A9 /* dependencies */,
 				04B6914016A979B6000D11A9 /* AppDelegate.h */,
 				04B6914116A979B6000D11A9 /* AppDelegate.m */,
 				04B6914916A979B6000D11A9 /* MainStoryboard_iPhone.storyboard */,
@@ -161,6 +177,23 @@
 				04B6916116A979B6000D11A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B6916F16A97EDA000D11A9 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		04B6917116A97EEB000D11A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B6917916A97EEB000D11A9 /* libZXingWidget.a */,
+				04B6917B16A97EEB000D11A9 /* ZXingTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +254,12 @@
 			mainGroup = 04B6912216A979B6000D11A9;
 			productRefGroup = 04B6912E16A979B6000D11A9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04B6917116A97EEB000D11A9 /* Products */;
+					ProjectRef = 04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				04B6912C16A979B6000D11A9 /* qrScannerDemo */,
@@ -228,6 +267,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04B6917916A97EEB000D11A9 /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = 04B6917816A97EEB000D11A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04B6917B16A97EEB000D11A9 /* ZXingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZXingTests.octest;
+			remoteRef = 04B6917A16A97EEB000D11A9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		04B6912B16A979B6000D11A9 /* Resources */ = {
