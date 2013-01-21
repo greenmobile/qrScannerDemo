@@ -18,12 +18,20 @@
 		04B6914816A979B6000D11A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B6914716A979B6000D11A9 /* Default-568h@2x.png */; };
 		04B6914B16A979B6000D11A9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B6914916A979B6000D11A9 /* MainStoryboard_iPhone.storyboard */; };
 		04B6914E16A979B6000D11A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B6914C16A979B6000D11A9 /* MainStoryboard_iPad.storyboard */; };
-		04B6915116A979B6000D11A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6915016A979B6000D11A9 /* ViewController.m */; };
+		04B6915116A979B6000D11A9 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04B6915016A979B6000D11A9 /* ViewController.mm */; };
 		04B6915916A979B6000D11A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6915816A979B6000D11A9 /* SenTestingKit.framework */; };
 		04B6915A16A979B6000D11A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6913116A979B6000D11A9 /* UIKit.framework */; };
 		04B6915B16A979B6000D11A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6913316A979B6000D11A9 /* Foundation.framework */; };
 		04B6916316A979B6000D11A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B6916116A979B6000D11A9 /* InfoPlist.strings */; };
 		04B6916616A979B6000D11A9 /* qrScannerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6916516A979B6000D11A9 /* qrScannerDemoTests.m */; };
+		04B6917E16A98087000D11A9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6917D16A98087000D11A9 /* AddressBook.framework */; };
+		04B6918016A9808B000D11A9 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6917F16A9808B000D11A9 /* AddressBookUI.framework */; };
+		04B6918216A98095000D11A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6918116A98095000D11A9 /* AudioToolbox.framework */; };
+		04B6918416A98098000D11A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6918316A98098000D11A9 /* AVFoundation.framework */; };
+		04B6918616A980A3000D11A9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6918516A980A3000D11A9 /* CoreMedia.framework */; };
+		04B6918816A980B1000D11A9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6918716A980B1000D11A9 /* CoreVideo.framework */; };
+		04B6918A16A980C8000D11A9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B6918916A980C8000D11A9 /* libiconv.dylib */; };
+		04B691A916A9B441000D11A9 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B691A616A9B43D000D11A9 /* libZXingWidget.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +42,16 @@
 			remoteGlobalIDString = 04B6912C16A979B6000D11A9;
 			remoteInfo = qrScannerDemo;
 		};
-		04B6917816A97EEB000D11A9 /* PBXContainerItemProxy */ = {
+		04B691A516A9B43D000D11A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */;
+			containerPortal = 04B6919D16A9B43C000D11A9 /* ZXingWidget.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = ZXingWidget;
 		};
-		04B6917A16A97EEB000D11A9 /* PBXContainerItemProxy */ = {
+		04B691A716A9B43D000D11A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */;
+			containerPortal = 04B6919D16A9B43C000D11A9 /* ZXingWidget.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
 			remoteInfo = ZXingTests;
@@ -67,14 +75,21 @@
 		04B6914A16A979B6000D11A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		04B6914D16A979B6000D11A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		04B6914F16A979B6000D11A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04B6915016A979B6000D11A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B6915016A979B6000D11A9 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		04B6915716A979B6000D11A9 /* qrScannerDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrScannerDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B6915816A979B6000D11A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		04B6916016A979B6000D11A9 /* qrScannerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "qrScannerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		04B6916216A979B6000D11A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B6916416A979B6000D11A9 /* qrScannerDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qrScannerDemoTests.h; sourceTree = "<group>"; };
 		04B6916516A979B6000D11A9 /* qrScannerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qrScannerDemoTests.m; sourceTree = "<group>"; };
-		04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
+		04B6917D16A98087000D11A9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		04B6917F16A9808B000D11A9 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		04B6918116A98095000D11A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04B6918316A98098000D11A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04B6918516A980A3000D11A9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		04B6918716A980B1000D11A9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		04B6918916A980C8000D11A9 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		04B6919D16A9B43C000D11A9 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B691A916A9B441000D11A9 /* libZXingWidget.a in Frameworks */,
+				04B6918A16A980C8000D11A9 /* libiconv.dylib in Frameworks */,
+				04B6918816A980B1000D11A9 /* CoreVideo.framework in Frameworks */,
+				04B6918616A980A3000D11A9 /* CoreMedia.framework in Frameworks */,
+				04B6918416A98098000D11A9 /* AVFoundation.framework in Frameworks */,
+				04B6918216A98095000D11A9 /* AudioToolbox.framework in Frameworks */,
+				04B6918016A9808B000D11A9 /* AddressBookUI.framework in Frameworks */,
+				04B6917E16A98087000D11A9 /* AddressBook.framework in Frameworks */,
 				04B6913216A979B6000D11A9 /* UIKit.framework in Frameworks */,
 				04B6913416A979B6000D11A9 /* Foundation.framework in Frameworks */,
 				04B6913616A979B6000D11A9 /* CoreGraphics.framework in Frameworks */,
@@ -123,6 +146,13 @@
 		04B6913016A979B6000D11A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04B6918916A980C8000D11A9 /* libiconv.dylib */,
+				04B6918716A980B1000D11A9 /* CoreVideo.framework */,
+				04B6918516A980A3000D11A9 /* CoreMedia.framework */,
+				04B6918316A98098000D11A9 /* AVFoundation.framework */,
+				04B6918116A98095000D11A9 /* AudioToolbox.framework */,
+				04B6917F16A9808B000D11A9 /* AddressBookUI.framework */,
+				04B6917D16A98087000D11A9 /* AddressBook.framework */,
 				04B6913116A979B6000D11A9 /* UIKit.framework */,
 				04B6913316A979B6000D11A9 /* Foundation.framework */,
 				04B6913516A979B6000D11A9 /* CoreGraphics.framework */,
@@ -140,7 +170,7 @@
 				04B6914916A979B6000D11A9 /* MainStoryboard_iPhone.storyboard */,
 				04B6914C16A979B6000D11A9 /* MainStoryboard_iPad.storyboard */,
 				04B6914F16A979B6000D11A9 /* ViewController.h */,
-				04B6915016A979B6000D11A9 /* ViewController.m */,
+				04B6915016A979B6000D11A9 /* ViewController.mm */,
 				04B6913816A979B6000D11A9 /* Supporting Files */,
 			);
 			path = qrScannerDemo;
@@ -182,16 +212,16 @@
 		04B6916F16A97EDA000D11A9 /* dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */,
+				04B6919D16A9B43C000D11A9 /* ZXingWidget.xcodeproj */,
 			);
 			name = dependencies;
 			sourceTree = "<group>";
 		};
-		04B6917116A97EEB000D11A9 /* Products */ = {
+		04B6919E16A9B43C000D11A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04B6917916A97EEB000D11A9 /* libZXingWidget.a */,
-				04B6917B16A97EEB000D11A9 /* ZXingTests.octest */,
+				04B691A616A9B43D000D11A9 /* libZXingWidget.a */,
+				04B691A816A9B43D000D11A9 /* ZXingTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,8 +286,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 04B6917116A97EEB000D11A9 /* Products */;
-					ProjectRef = 04B6917016A97EEB000D11A9 /* ZXingWidget.xcodeproj */;
+					ProductGroup = 04B6919E16A9B43C000D11A9 /* Products */;
+					ProjectRef = 04B6919D16A9B43C000D11A9 /* ZXingWidget.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -269,18 +299,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		04B6917916A97EEB000D11A9 /* libZXingWidget.a */ = {
+		04B691A616A9B43D000D11A9 /* libZXingWidget.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libZXingWidget.a;
-			remoteRef = 04B6917816A97EEB000D11A9 /* PBXContainerItemProxy */;
+			remoteRef = 04B691A516A9B43D000D11A9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		04B6917B16A97EEB000D11A9 /* ZXingTests.octest */ = {
+		04B691A816A9B43D000D11A9 /* ZXingTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ZXingTests.octest;
-			remoteRef = 04B6917A16A97EEB000D11A9 /* PBXContainerItemProxy */;
+			remoteRef = 04B691A716A9B43D000D11A9 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -332,7 +362,7 @@
 			files = (
 				04B6913E16A979B6000D11A9 /* main.m in Sources */,
 				04B6914216A979B6000D11A9 /* AppDelegate.m in Sources */,
-				04B6915116A979B6000D11A9 /* ViewController.m in Sources */,
+				04B6915116A979B6000D11A9 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,8 +477,14 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qrScannerDemo/qrScannerDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes,
+					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src,
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = "qrScannerDemo/qrScannerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes /Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -458,8 +494,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qrScannerDemo/qrScannerDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes,
+					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src,
+				);
 				INFOPLIST_FILE = "qrScannerDemo/qrScannerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes /Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -517,6 +558,7 @@
 				04B6916B16A979B6000D11A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B6916C16A979B6000D11A9 /* Build configuration list for PBXNativeTarget "qrScannerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +567,7 @@
 				04B6916E16A979B6000D11A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

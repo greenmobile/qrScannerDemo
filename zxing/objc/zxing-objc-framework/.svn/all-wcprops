@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2313/trunk/objc/zxing-objc-framework
+END
+zxing_objc_framework.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2313/trunk/objc/zxing-objc-framework/zxing_objc_framework.h
+END
+zxing_objc_framework.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2313/trunk/objc/zxing-objc-framework/zxing_objc_framework.m
+END
+zxing-objc-framework-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2313/trunk/objc/zxing-objc-framework/zxing-objc-framework-Info.plist
+END
+zxing-objc-framework-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2313/trunk/objc/zxing-objc-framework/zxing-objc-framework-Prefix.pch
+END

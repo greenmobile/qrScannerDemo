@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2546/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client
+END
+WifiGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2376/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/WifiGenerator.java
+END
+GeneratorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/GeneratorException.java
+END
+TimeZoneInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/TimeZoneInfo.java
+END
+GeneratorSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/GeneratorSource.java
+END
+Validators.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/Validators.java
+END
+UrlGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/UrlGenerator.java
+END
+GeoLocationGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/GeoLocationGenerator.java
+END
+ContactInfoGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2546/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/ContactInfoGenerator.java
+END
+SmsAddressGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/SmsAddressGenerator.java
+END
+CalendarEventGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2042/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/CalendarEventGenerator.java
+END
+StylesDefs.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/StylesDefs.java
+END
+Generator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/Generator.java
+END
+TimeZoneList.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/TimeZoneList.java
+END
+PhoneNumberGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/PhoneNumberGenerator.java
+END
+TextGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/TextGenerator.java
+END
+EmailGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2030/trunk/zxing.appspot.com/src/com/google/zxing/web/generator/client/EmailGenerator.java
+END

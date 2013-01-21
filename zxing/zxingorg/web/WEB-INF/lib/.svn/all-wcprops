@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2426/trunk/zxingorg/web/WEB-INF/lib
+END
+commons-fileupload-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2002/trunk/zxingorg/web/WEB-INF/lib/commons-fileupload-1.2.2.jar
+END
+commons-lang-2.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2237/trunk/zxingorg/web/WEB-INF/lib/commons-lang-2.6.jar
+END
+commons-lang-LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/492/trunk/zxingorg/web/WEB-INF/lib/commons-lang-LICENSE.txt
+END
+commons-fileupload-LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/383/trunk/zxingorg/web/WEB-INF/lib/commons-fileupload-LICENSE.txt
+END
+commons-io-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2426/trunk/zxingorg/web/WEB-INF/lib/commons-io-2.4.jar
+END
+commons-io-LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/383/trunk/zxingorg/web/WEB-INF/lib/commons-io-LICENSE.txt
+END

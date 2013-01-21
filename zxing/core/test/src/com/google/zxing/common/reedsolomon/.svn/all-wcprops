@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2236/trunk/core/test/src/com/google/zxing/common/reedsolomon
+END
+ReedSolomonEncoderQRCodeTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2236/trunk/core/test/src/com/google/zxing/common/reedsolomon/ReedSolomonEncoderQRCodeTestCase.java
+END
+AbstractReedSolomonTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2002/trunk/core/test/src/com/google/zxing/common/reedsolomon/AbstractReedSolomonTestCase.java
+END
+ReedSolomonDecoderQRCodeTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1666/trunk/core/test/src/com/google/zxing/common/reedsolomon/ReedSolomonDecoderQRCodeTestCase.java
+END
+ReedSolomonDecoderDataMatrixTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1666/trunk/core/test/src/com/google/zxing/common/reedsolomon/ReedSolomonDecoderDataMatrixTestCase.java
+END

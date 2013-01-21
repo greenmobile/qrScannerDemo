@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2313/trunk/objc/examples/osx/demo/demo
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2313/trunk/objc/examples/osx/demo/demo/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2313/trunk/objc/examples/osx/demo/demo/AppDelegate.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2313/trunk/objc/examples/osx/demo/demo/AppDelegate.m
+END
+Defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2313/trunk/objc/examples/osx/demo/demo/Defs.h
+END
+demo-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2313/trunk/objc/examples/osx/demo/demo/demo-Info.plist
+END
+demo-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2313/trunk/objc/examples/osx/demo/demo/demo-Prefix.pch
+END

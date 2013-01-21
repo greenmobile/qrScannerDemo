@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2370/trunk/objc/src/ZXing
+END
+ZXBinarizer.mm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1953/trunk/objc/src/ZXing/ZXBinarizer.mm
+END
+ZXMultiFormatReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1826/trunk/objc/src/ZXing/ZXMultiFormatReader.mm
+END
+ZXHybridBinarizer.mm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXHybridBinarizer.mm
+END
+CGImageLuminanceSource.mm
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2370/trunk/objc/src/ZXing/CGImageLuminanceSource.mm
+END
+ZXView.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1782/trunk/objc/src/ZXing/ZXView.h
+END
+ZXIllegalArgumentException.mm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXIllegalArgumentException.mm
+END
+ZXReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1826/trunk/objc/src/ZXing/ZXReader.mm
+END
+ZXCapture.mm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2315/trunk/objc/src/ZXing/ZXCapture.mm
+END
+ZXMultiFormatReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXMultiFormatReader.h
+END
+ZXDecodeHints.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1826/trunk/objc/src/ZXing/ZXDecodeHints.h
+END
+ZXInit.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1782/trunk/objc/src/ZXing/ZXInit.c
+END
+ZXResult.mm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2313/trunk/objc/src/ZXing/ZXResult.mm
+END
+ZXReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1953/trunk/objc/src/ZXing/ZXReader.h
+END
+ZXImage.mm
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2313/trunk/objc/src/ZXing/ZXImage.mm
+END
+ZXCGImageLuminanceSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1953/trunk/objc/src/ZXing/ZXCGImageLuminanceSource.h
+END
+ZXDecodeHints.mm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXDecodeHints.mm
+END
+ZXResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2313/trunk/objc/src/ZXing/ZXResult.h
+END
+ZXLuminanceSource.mm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1953/trunk/objc/src/ZXing/ZXLuminanceSource.mm
+END
+ZXCaptureView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXCaptureView.mm
+END
+ZXReaderException.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1782/trunk/objc/src/ZXing/ZXReaderException.h
+END
+ZXBinaryBitmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1826/trunk/objc/src/ZXing/ZXBinaryBitmap.h
+END
+ZXQRCodeReader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1953/trunk/objc/src/ZXing/ZXQRCodeReader.mm
+END
+ZXImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1782/trunk/objc/src/ZXing/ZXImage.h
+END
+ZXBinarizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1826/trunk/objc/src/ZXing/ZXBinarizer.h
+END
+ZXHybridBinarizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1826/trunk/objc/src/ZXing/ZXHybridBinarizer.h
+END
+ZXIllegalArgumentException.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1782/trunk/objc/src/ZXing/ZXIllegalArgumentException.h
+END
+ZXCGImageLuminanceSource.mm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2315/trunk/objc/src/ZXing/ZXCGImageLuminanceSource.mm
+END
+ZXLuminanceSource.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1953/trunk/objc/src/ZXing/ZXLuminanceSource.h
+END
+ZXCaptureView.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXCaptureView.h
+END
+ZXCaptureDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2313/trunk/objc/src/ZXing/ZXCaptureDelegate.h
+END
+ZXQRCodeReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1953/trunk/objc/src/ZXing/ZXQRCodeReader.h
+END
+ZXCapture.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2313/trunk/objc/src/ZXing/ZXCapture.h
+END
+ZXBinaryBitmap.mm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXBinaryBitmap.mm
+END
+ZXReaderException.mm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1783/trunk/objc/src/ZXing/ZXReaderException.mm
+END

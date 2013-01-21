@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *scanButton;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
