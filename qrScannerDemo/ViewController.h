@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZXingWidgetController.h"
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *scanButton;
+
+@interface ViewController : UIViewController <ZXingDelegate>
+@property (retain, nonatomic) IBOutlet UIButton *scanButton;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+- (IBAction)scanButtonAction:(id)sender;
+- (IBAction)backgroundTouched:(id)sender;
 
 @end

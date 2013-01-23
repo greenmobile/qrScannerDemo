@@ -423,15 +423,15 @@
 		04B6916716A979B6000D11A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -442,33 +442,45 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"zxing/iphone/ZXingWidget/Classes/**",
+					"zxing/cpp/core/src/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../zxing/cpp/core/src/**";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Debug;
 		};
 		04B6916816A979B6000D11A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"zxing/iphone/ZXingWidget/Classes/**",
+					"zxing/cpp/core/src/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../zxing/cpp/core/src/**";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Release;
 		};
@@ -477,14 +489,11 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qrScannerDemo/qrScannerDemo-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes,
-					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src,
-				);
+				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = "qrScannerDemo/qrScannerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes /Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/zxing/iphone/ZXingWidget/Classes/** $(SRCROOT)/zxing/cpp/core/src/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -494,13 +503,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qrScannerDemo/qrScannerDemo-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes,
-					/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src,
-				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "qrScannerDemo/qrScannerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "/Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/iphone/ZXingWidget/Classes /Users/mac/Documents/apps/gmino/qrScannerDemo/qrScannerDemo/zxing/cpp/core/src";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/zxing/iphone/ZXingWidget/Classes/** $(SRCROOT)/zxing/cpp/core/src/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
