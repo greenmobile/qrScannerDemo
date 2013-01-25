@@ -11,8 +11,9 @@
 
 
 @interface ViewController : UIViewController <ZXingDelegate>
-@property (retain, nonatomic) IBOutlet UIButton *scanButton;
+
 @property (weak, nonatomic) IBOutlet UITextField *textField;
+
 - (IBAction)scanButtonAction:(id)sender;
 - (IBAction)backgroundTouched:(id)sender;
 

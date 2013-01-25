@@ -487,12 +487,14 @@
 		04B6916A16A979B6000D11A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qrScannerDemo/qrScannerDemo-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
 				"HEADER_SEARCH_PATHS[arch=*]" = "";
 				INFOPLIST_FILE = "qrScannerDemo/qrScannerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25D7128F-267C-4F99-980C-4069C7E36DDC";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/zxing/iphone/ZXingWidget/Classes/** $(SRCROOT)/zxing/cpp/core/src/**";
 				WRAPPER_EXTENSION = app;
 			};
