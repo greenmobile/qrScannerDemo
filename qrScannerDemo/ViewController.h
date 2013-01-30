@@ -15,6 +15,5 @@
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 
 - (IBAction)scanButtonAction:(id)sender;
-- (IBAction)backgroundTouched:(id)sender;
 
 @end
