@@ -83,9 +83,10 @@
 
 }
 
-- (IBAction)backgroundTouched:(id)sender {
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [self textFieldShouldReturn:_textField];
 }
+
 
 #pragma mark keyboardMethods
 
